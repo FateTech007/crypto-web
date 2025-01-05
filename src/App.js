@@ -1,10 +1,10 @@
-
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello welcome to crypto-world</h1>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
 
