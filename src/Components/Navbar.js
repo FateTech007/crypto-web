@@ -21,7 +21,7 @@ const Navbar = () => {
 
                 </div>
                 <div className="hambuger">
-                    <FaBars />
+                    <FaBars size={20} style={{ color: "#118c4f" }} />
                 </div>
 
             </div>
