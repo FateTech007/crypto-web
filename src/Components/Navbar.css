@@ -24,7 +24,7 @@
     }
     a {
       color: #333;
-      font-weight: 600;
+      font-weight: 800;
       font-size: 1rem;
     }
   }
@@ -41,6 +41,39 @@
   .header {
     .hambuger {
       display: flex;
+    }
+
+    .nav-menue {
+      position: absolute;
+      flex-direction: column;
+      justify-content: start;
+      top: 90px;
+      width: 50%;
+      right: -100%;
+      height: 100vh;
+      border-left: 1px solid #e4dada73;
+      background: #ffffff;
+      z-index: 2;
+      transition: 0.4s;
+    }
+
+    .nav-menue.active {
+      right: 0;
+    }
+
+    .nav-menue li {
+      padding: 1rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #2525252c;
+      width: 100%;
+      cursor: pointer;
+    }
+
+    .nav-menue li:hover {
+      background: #0000000c;
+    }
+    .nav-menue a {
+      font-size: 20px;
     }
   }
 }
