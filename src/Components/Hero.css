@@ -1,0 +1,31 @@
+.hero .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 4rem auto;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .left {
+  padding: 1rem;
+}
+.hero .left h1 {
+  padding: 1rem 0;
+}
+.hero .left .input-container {
+  padding: 1rem 0;
+}
+
+.hero .right {
+  padding: 1rem;
+}
+.hero.img-container {
+  display: flex;
+  width: 100%;
+}
+
+.hero img {
+  max-width: 80%;
+  margin: auto;
+}
